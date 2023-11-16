@@ -1,26 +1,4 @@
-/*
-                   SLAVE
-Peter Rhoades:
-Sunday 13/03/22:
-nRF24_Dapol 3 Servo Joystick Light and Buzz_Slave®:
-Folder nRF24_Dapol_3_Servo_Light_and_Buzz_Slave_1.1:
-Saturday 26/03/22: Working on NANO using "ATmega328P(Old Bootloades)"
 
-nRF Tranciver 
-  1 = GRN  Black   
-  2 = 3.3v Red
-  3 = CE   Pin 7  Blue
-  4 = CSN  Pin 8  Green
-  5 = SCK  Pin 13 Yellow
-  6 = MOSI Pin 11 White
-  7 = MISO Pin 12 Orange
-  8 = UNUSED
-   _______________________
-  | 1 | 2 |              |
-  | 3 | 4 |              | 
-  | 5 | 6 |              |
-  |_7_|_8_|______________|
-*/
 #include <Servo.h>
 #include  <SPI.h>
 #include "RF24.h"
